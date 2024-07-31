@@ -1,17 +1,17 @@
-def membaca():
-    with open('file.txt', "r") as file_txt:
+def baca_file(nama_file):
+    with open(nama_file, "r") as file_txt:
         file_content = file_txt.read()
         print(file_content)
 
-def menulis():
+def tulis_file(nama_file):
     
-    membaca()
+    baca_file("file.txt")
 
-    nama_pemain = input("Nama pemain Manchester United: ")
+    nama_pemain = input("Nama Pemain Manchester United: ")
     text = "\n {}".format(nama_pemain)
 
 
-    with open("file.txt", "a") as file_anime:
-        file_anime.write(text)
+    with open('file.txt', "a") as file_pemain:
+        file_pemain.write(text)
 
-menulis()
+tulis_file("file.txt")
