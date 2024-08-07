@@ -7,3 +7,4 @@
  & C:/Users/Dell/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/xampp/htdocs/tugas-operasi-file/operasi_file.py
  Amad Diallo
  Harry Maguire
+ Diogo Dalot
